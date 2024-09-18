@@ -1,13 +1,3 @@
-<script setup lang="ts">
-const { gtag, initialize } = useGtag()
-</script>
-
-<template>
-  <button @click="initialize()">
-    Grant Consent
-  </button>
-</template>
-
 <template>
   <div class="text-center p-4">
     <span>Um pouco sobre mim</span>
