@@ -9,4 +9,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ['nuxt-gtag'],
+  gtag: {
+    id: 'G-EPZT5YQK03',
+  }
 })
