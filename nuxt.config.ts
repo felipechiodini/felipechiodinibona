@@ -9,9 +9,16 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['nuxt-gtag', '@nuxtjs/seo'],
+  modules: ['nuxt-gtag', '@nuxtjs/seo', '@nuxt/scripts'],
   gtag: {
     id: 'G-EPZT5YQK03',
+  },
+  scripts: {
+    registry: {
+      clarity: {
+        id: 'o9a4ix4ubq'
+      }
+    }
   },
   site: {
     url: 'https://www.felipechiodinibona.com.br',
